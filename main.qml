@@ -119,7 +119,6 @@ ApplicationWindow {
                 value: 50
                 Layout.fillWidth: true
                 Layout.preferredHeight: 30 // Tinggi slider
-                // ... event handling
             }
 
             Slider {
@@ -129,7 +128,6 @@ ApplicationWindow {
                 value: 30
                 Layout.fillWidth: true
                 Layout.preferredHeight: 30 // Tinggi slider
-                // ... event handling
             }
 
             Slider {
@@ -139,17 +137,15 @@ ApplicationWindow {
                 value: 70
                 Layout.fillWidth: true
                 Layout.preferredHeight: 30 // Tinggi slider
-                // ... event handling
             }
 
             Slider {
                 id: slider4
                 from: 0
                 to: 100
-                value: 40
+                value: 10
                 Layout.fillWidth: true
                 Layout.preferredHeight: 30 // Tinggi slider
-                // ... event handling
             }
         }
 
@@ -166,4 +162,3 @@ ApplicationWindow {
         }
     }
 }
-
